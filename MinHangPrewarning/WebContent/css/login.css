@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+#No1 {
+	background-image: url(../image/11.jpg);
+	height: 650px;
+	width: 1300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -18px;
+}
+#No1 #No2 {
+	height: 200px;
+	width: 200px;
+	margin-top: 450px;
+	margin-left: 1050px;
+	text-align: center;
+}
+ 

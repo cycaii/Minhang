@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body {
+	background-color: #FF9;
+	height: 1200px;
+	width: 1200px;
+	margin: auto;
+}
+#body #head {
+	background-color: #CCF;
+	height: 220px;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#head1 {
+	background-color: #FC6;
+	height: 100px;
+	width: 1000px;
+	font-size: 50px;
+	text-align:center;
+	line-height:100px;
+	position: relative;
+	top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#head2 {
+	background-color: #CF9;
+	height: 60px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+#body #head21 {
+	height: 35px;
+	width: 800px;
+	background-color: #FF0;
+	position: relative;
+	top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#body #head21 table {
+    font-size: 24px;
+}
+#head3 {
+	background-color: #F0F0F0;
+	float: right;
+	height: 100px;
+	width: 200px;
+}
+#head31 {
+	height: 80px;
+	width: 200px;
+	position: relative;
+	top: 10px;
+}
+#main {
+	background-color: #FCF;
+	height: 800px;
+	width: 1200px;
+}
+#left {
+	background-color: #9FC;
+	height: 150px;
+	width: 200px;
+	margin-left: 20px;
+	float: left;
+}
+
+#menu { width:200px; margin:auto;}
+#main #left #menu #CollapsiblePanel1 .CollapsiblePanelTab {
+	font-size:20px;
+	border:#C60 1px solid;
+	margin-top:1px;
+	background-color:#F93;
+	color: #FFF;
+}
+#main1 {
+	background-color: #6FC;
+	float: left;
+	height: 700px;
+	width: 700px;
+	margin-left: 30px;
+}
+#right {
+	background-color: #FCC;
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-left: 20px;
+}
+#top {
+	background-color: #9FF;
+	height: 50px;
+	width: 600px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#center {
+}
+
+
+
+ #menu h1 { font-size:20px; border:#C60 1px solid; margin-top:1px;  background-color:#F93;}
+ #menu h2 { font-size:18px; border:#E7E7E7 1px solid; border-top-color:#FFF; background-color:#F4F4F4;}
+ #menu ul {
+	padding-left:15px;
+	border:#E7E7E7 1px solid;
+	border-top:none;
+	overflow:auto;
+	background-color: #9CF;
+}
+ #menu a { display:block; padding:5px 0 3px 10px; text-decoration:none; overflow:hidden;border:#E7E7E7 1px solid;}
+ #menu a:hover{ color:#6F0; background:#000;}
+ #menu .no {display:none;}
+ #menu .h1 a{color:#6F0;}
+ #menu .h2 a{color:#06F;}
+ #menu  h1 a{color:#FFF;}
+*,body,ul,h1,h2{ margin:0; padding:0; list-style:none;}
+a{ color:#777;border:none;}
+#body #main #main1 iframe {
+	height: 650px;
+	width: 650px;
+}

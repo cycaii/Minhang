@@ -1,0 +1,249 @@
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: "Microsoft Yahei";
+}
+
+a {
+	color: #4b4a4a;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.picfoot {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height:150px;
+	width: 100%;
+}
+
+.picfoot .cgpic {
+	margin: 0 auto;
+	position: relative;
+	top:0;
+	height:30px;
+	width: 100px;
+}
+
+.picfoot .cgpic .MainBgSwitchLeft {
+	position: absolute;
+	 top:0;
+	left:0;
+	width: 30px;
+	height: 30px;
+	background: url('../images/left.png') no-repeat;
+	cursor: pointer;
+	_background: url('../images/left.gif') no-repeat;
+}
+
+.picfoot .cgpic .MainBgSwitchRight {
+	position: absolute;
+	 top:0;
+	right:0;
+	width: 30px;
+	height: 30px;
+	background: url('../images/right.png') no-repeat;
+	cursor: pointer;
+	_background: url('../images/right.gif') no-repeat;
+}
+
+.header {
+	height: 50px;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.header .minhangname {
+	color: #333;
+	/*  	display: inline-block;  */
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	outline: 0;
+}
+
+.login,.login_no_qlogin {
+	background-color: #fff;
+}
+
+.login,.login_no_qlogin {
+	margin: 0 auto;
+	width: 418px;
+	border: 2px solid #eee;
+	position: relative;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.web_login {
+	width: 418px;
+	position: relative;
+	padding-bottom: 65px;
+}
+
+.web_login .tips {
+	height: 50px;
+	width: 270px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 11;
+}
+
+.loginTips {
+	position: absolute;
+	height: 50px;
+	z-index: 100;
+}
+
+.loginTips .error_tips {
+	padding: 5px;
+	border: 1px solid #dad699;
+	background: #f9f5c7;
+	position: absolute;
+	bottom: 0;
+	border-radius: 2px;
+	width: 258px;
+	left: 74px;
+}
+
+.loginTips .error_tips .error_logo {
+	position: absolute;
+	left: 3px;
+	height: 18px;
+	line-height: 18px;
+	width: 18px;
+	background: url(../images/icon_3_tiny.png) no-repeat 0 -162px;
+	_background: url(../images/icon_3_8.png) no-repeat 0 -162px;
+}
+
+.loginTips .error_tips .err_m {
+	display: inline-block;
+	padding-left: 20px;
+	line-height: 18px;
+	color: #434343;
+	vertical-align: middle;
+	text-align: left;
+	font-family: Tahoma, Verdana, Arial, ËÎÌå;
+	font-size: 12px;
+}
+
+.web_login .login_form {
+	width: 272px;
+	margin: 0 auto;
+}
+
+.web_login .uinArea {
+	height: 55px;
+	position: relative;
+	z-index: 10;
+}
+
+.web_login .input_tips,.web_login .input_tips_focus {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	font-size: 14px;
+	line-height: 16px;
+	color: #aaa;
+	cursor: text;
+}
+
+.web_login .inputOuter {
+	width: 272px;
+	height: 42px;
+	background: url(../images/icon_3_tiny.png) no-repeat -1px -1px;
+	_background: url(../images/icon_3_8.png) no-repeat -1px -1px;
+}
+
+.web_login .inputstyle {
+	width: 258px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	height: 18px;
+	padding: 11px 0 11px 10px;
+	line-height: 18px;
+	border: 0;
+	background: 0;
+	color: #333;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 16px;
+	ime-mode: disabled;
+}
+
+.web_login .uin_del {
+	width: 21px;
+	height: 21px;
+	cursor: pointer;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	background: url(../images/icon_3_tiny.png) no-repeat -116px -160px;
+	_background: url(../images/icon_3_8.png) no-repeat -116px -160px;
+	display: none;
+}
+
+.web_login .pwdArea {
+	height: 55px;
+	position: relative;
+	z-index: 3;
+}
+
+.web_login .submit {
+	position: relative;
+	height: 40px;
+}
+
+.web_login .login_button:hover {
+	text-decoration: none;
+}
+
+.web_login .login_button {
+	position: absolute;
+	left: 0;
+	outline: 0;
+}
+
+.web_login .login_button .btn {
+	width: 115px;
+	height: 35px;
+	line-height: 35px;
+	border: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+	background: url(../images/icon_3_tiny.png) no-repeat 0 -90px;
+	_background: url(../images/icon_3_8.png) no-repeat 0 -90px;
+}
+
+.bottom {
+	height: 16px;
+	margin-bottom: 8px;
+	width: 410px;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	text-align: right;
+	font-size: 12px;
+}
+
+.bottom .dotted {
+	color: #bfbfbf;
+	margin: 0 5px;
+}
+
+.bottom .link {
+	color: #666;
+}

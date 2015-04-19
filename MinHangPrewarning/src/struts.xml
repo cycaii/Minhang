@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+	<!-- <constant name="conststruts.devMode" value="false" /> -->
+	<constant name="struts.multipart.maxSize" value="104857600" />
+	<!-- 设置该应用使用的解码集 -->
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+
+	<package name="content" namespace="/" extends="struts-default">
+		<!-- 首页 -->
+		<action name="index">
+			<result>Main.jsp</result>
+		</action>
+
+
+		<!-- session超时 -->
+		<!-- <action name="session-timeout-log"> -->
+		<!-- <result>/WEB-INF/page/session-timeout-log.jsp</result> -->
+		<!-- </action> -->
+		<!-- 用户登陆 -->
+		<action name="login-index">
+			<result>login.jsp</result>
+		</action>
+		<action name="login" class="minhang.action.LoginAction">
+			<result name="success" type="redirect">oufa_showOufaMain.action
+			</result>
+			<result name="fail">login.jsp</result>
+		</action>
+		<!-- 注销 -->
+		<!-- <action name="logout" class="com.pt.action.LogoutAction"> -->
+		<!-- <result name="success" type="redirect">index.action</result> -->
+		<!-- </action> -->
+
+		<action name="pinfa_*" method="{1}" class="minhang.action.PinfaAction">
+			<result name="success">pinfa/pinfaMain.jsp</result>
+			<result name="login">login.jsp</result>
+		</action>
+
+		<action name="oufa_*" method="{1}" class="minhang.action.OufaAction">
+			<result name="success">oufa/oufaMain.jsp</result>
+			<result name="oufaEvent1">oufa/oufaEvent1.jsp</result>
+			<result name="oufaEvent2">oufa/oufaEvent2.jsp</result>
+			<result name="tufaEvent1">oufa/tufaEvent1.jsp</result>
+			<result name="tufaEvent2">oufa/tufaEvent2.jsp</result>
+			<result name="oufaDetail">oufa/oufaEventDetail.jsp</result>
+			<result name="login">login.jsp</result>
+		</action>
+<action name="yujing_*" method="{1}" class="minhang.action.YujingAction">
+			<result name="success">yujing/yujingMain.jsp</result>
+			<result name="yujing">yujing/yujing.jsp</result>
+			<result name="yuce">yujing/yuce.jsp</result>
+			<result name="login">login.jsp</result>
+		</action>
+	</package>
+
+
+	<!-- 默认action -->
+	<package name="default" namespace="/" extends="struts-default">
+		<default-action-ref name="notFound" />
+		<action name="notFound">
+			<result>/WEB-INF/page/404.jsp</result>      <!-- index.htm为项目根目录的默认页面 -->
+		</action>
+	</package>
+
+	<!-- 后台管理 -->
+	<package name="admin" namespace="/admin" extends="struts-default">
+		<!-- <action name="admin_*" method="{1}" class="AdminAction"> -->
+		<!-- <result name="success" type="redirect">/secure/home.jsp</result> -->
+		<!-- <result name="input">/login.jsp</result> -->
+		<!-- </action> -->
+	</package>
+</struts>

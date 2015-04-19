@@ -1,0 +1,25 @@
+.lay_foot {
+position: absolute;
+bottom: 5%;
+left: 0;
+width: 100%;
+color: #fff;
+}
+.lay_foot .lay_inner {
+width: 750px;
+margin: 0 auto;
+position: relative;
+}
+.lay_foot .copyright {
+text-align: center;
+}
+.lay_foot .copyright p {
+line-height: 22px;
+}
+/* body { */
+/* height: 100%; */
+/* margin: 0; */
+/* padding: 0; */
+/* overflow: hidden; */
+/* font-family: "Microsoft Yahei"; */
+/* } */

@@ -1,0 +1,23 @@
+.lay_foot {
+position: absolute;
+bottom: 1%;
+left: 0;
+width: 100%;
+color: #fff;
+}
+.lay_foot .lay_inner {
+width: 750px;
+margin: 0 auto;
+position: relative;
+}
+.lay_foot .copyright {
+text-align: center;
+}
+.lay_foot .copyright p {
+line-height: 22px;
+font-size: 80%;
+font-family: "Microsoft Yahei";
+}
+.lay_foot a {
+color: #fff;
+}

@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+.shortInput {
+	border: 1px solid #999;
+	width: 50px;
+}
+
+#body {
+	height: 1200px;
+	width: 1200px;
+	margin: auto;
+}
+
+#body #head {
+	height: 500px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#head1 {
+	height: 53px;
+	width: 1200px;
+	background-image: url(../image/1.jpg);
+}
+
+#body #head11 {
+	height: 35px;
+	width: 800px;
+	color: #FFF;
+	font-size: 30px;
+	text-decoration: blink;
+	float: right;
+	margin-right: 30px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#head2 {
+	height: 448px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../image/10.jpg);
+}
+
+#body #head21 table {
+	font-size: 24px;
+}
+
+#main {
+	height: 800px;
+	width: 1200px;
+	background-image: url(../image/4.png);
+	background-repeat: repeat;
+}
+
+#left {
+	height: auto;
+	width: 210px;
+	margin-left: 20px;
+	float: left;
+	background-image: url(../image/3.png);
+	background-repeat: repeat;
+	margin-top: 20px;
+}
+
+#menu {
+	width: 210px;
+	margin: auto;
+}
+
+#main1 {
+	float: left;
+	height: 700px;
+	width: 930px;
+	margin-left: 30px;
+}
+
+#top {
+	background-color: #9FF;
+	height: 50px;
+	width: 600px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
+#center {
+	
+}
+
+#menu h3 {
+	font-size: 20px;
+	border: #C60 1px solid;
+	margin-top: 1px;
+	background-repeat: repeat;
+	color: #FFF;
+}
+
+#menu h1 {
+	font-size: 20px;
+	border: #C60 1px solid;
+	margin-top: 1px;
+	background-repeat: repeat;
+}
+
+#menu h2 {
+	font-size: 18px;
+	border: #E7E7E7 1px solid;
+	border-top-color: #D6D6D6;
+	background-color: #F4F4F4;
+}
+
+#menu ul {
+	padding-left: 15px;
+	border: #E7E7E7 1px solid;
+	border-top: none;
+	overflow: auto;
+	background-color: #9CF;
+}
+
+#menu a {
+	display: block;
+	padding: 5px 0 3px 10px;
+	text-decoration: none;
+	overflow: hidden;
+	border: #E7E7E7 1px solid;
+}
+
+#menu a:hover {
+	color: #6F0;
+	background: #000;
+}
+
+#menu .no {
+	display: none;
+}
+
+#menu .h1 a {
+	color: #6F0;
+}
+
+#menu .h2 a {
+	color: #FFF;
+}
+
+#menu  h1 a {
+	color: #FFF;
+}
+
+#body #main #left #menu h3 a {
+	color: #FFF;
+}
+
+*,ul,h1,h2 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: #777;
+	border: none;
+}
+
+#body #main #main1 iframe {
+	height: 680px;
+	width: 920px;
+}
+
+#body #head #head1 #head11 table {
+	font-weight: bold;
+	color: #FFF;
+}
